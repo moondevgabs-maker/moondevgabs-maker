@@ -60,5 +60,5 @@
 ---
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2JpZGJ1cm05cTBqMW44ZHRiZ2o3cWd5bWFoNGRsNnNtc2w0ejBhcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bktsV02VbKcs/giphy.gif" width="150" alt="GIF da Gatinha Luna (Sailor Moon)" />
+  <img src="https://media.tenor.com/BnIPE5qUprgAAAAM/luna-sailor-moon.gif" width="150" alt="GIF da Luna pixelada andando" />
 </p>
