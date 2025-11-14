@@ -60,5 +60,5 @@
 ---
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ZtYXNucjZ4a2cxbDNyOWxicWF3anJ4ZDJ6ejd3cTVpODJzZmh3bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LqxYvSkj8n1oA/giphy.gif" width="200" alt="Sailor Moon Fim" />
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2JpZGJ1cm05cTBqMW44ZHRiZ2o3cWd5bWFoNGRsNnNtc2w0ejBhcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bktsV02VbKcs/giphy.gif" width="150" alt="GIF da Gatinha Luna (Sailor Moon)" />
 </p>
