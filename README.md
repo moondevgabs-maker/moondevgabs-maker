@@ -1,27 +1,27 @@
 <p align="center">
   <a href="https://github.com/moondevgabs-maker">
-    <img src="https://i.ibb.co/L5195y1/moondevgabs-maker-profile.gif" alt="Olá, eu sou a MoonDevGabs, uma Sailor Scout do desenvolvimento!" width="500">
+    <img src="https://media1.giphy.com/media/Y1CjQNbQhLdAJTfVTA/giphy.gif" alt="GIF da Ravena (Raven) dos Jovens Titãs" width="500">
   </a>
 </p>
 
-<h1 align="center">🌙✨ Olá, eu sou a Gabs, a MoonDev! ✨🌙</h1>
+<h1 align="center">🔮 Olá, eu sou a Gabs, a MoonDev! 🔮</h1>
 
 <p align="center">
-  <i>"Eu sou uma Sailor Scout que luta por amor e justiça! E também por código limpo e responsivo!"</i>
+  <i>"Azarath... Metrion... Zinthos."</i>
 </p>
 
 ---
 
-### 💖 Sobre Mim (Em nome da Lua, vou te Programar!)
+### 📖 Meu Mundo Interior (Sobre Mim)
 
--   🔭 Atualmente estou mergulhando de cabeça no **desenvolvimento web**, aprendendo **HTML, CSS e JavaScript** para criar interfaces mágicas e funcionais.
--   🌱 Buscando desafios e oportunidades para evoluir como desenvolvedora **Front-end** e **Web Design**.
--   ⚡ Sempre em busca de novos conhecimentos e ferramentas, como uma verdadeira Sailor Scout explorando o universo.
--   🌌 Apaixonada por tecnologia, criatividade e, claro, o universo mágico de Sailor Moon!
+-   🔭 Focada em dominar a arte do **desenvolvimento web**, usando **HTML, CSS e JavaScript** para criar interfaces com poder e precisão.
+-   🌱 Buscando desafios e projetos para evoluir minhas habilidades em **Front-end** e **Web Design**.
+-   ⚡ Sempre absorvendo novos conhecimentos e ferramentas, mergulhando fundo nos mistérios do código.
+-   🌌 Apaixonada por tecnologia, o universo místico da Ravena e a estética sombria. Diversidade e acessibilidade são indispensáveis.
 
 ---
 
-### 🚀 Minhas Habilidades (Poderes Lunares do Código)
+### 🦇 Meus Feitiços (Habilidades)
 
 <p align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
@@ -32,7 +32,7 @@
 
 ---
 
-### 📊 Minhas Estrelas de Contribuição (Estatísticas Mágicas)
+### 👁️ Minha Visão (Estatísticas)
 
 <p align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
@@ -46,7 +46,7 @@
 
 ---
 
-### 💬 Vamos Conectar! (Chamando como Escoteiras!)
+### 📞 Contato (Se Atreva)
 
 <p align="center">
   <a href="www.linkedin.com/in/gabriela-oliveira-324677125">
@@ -60,5 +60,5 @@
 ---
 
 <p align="center">
-  <img src="https://media.tenor.com/BnIPE5qUprgAAAAM/luna-sailor-moon.gif" width="100" alt="GIF da Luna pixelada andando" />
+  <img src="https://media.tenor.com/mLkKVWMf_K8AAAAM/raven-rachel.gif" width="200" alt="GIF da Ravena pixelada" />
 </p>
