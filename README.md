@@ -18,7 +18,6 @@
 - 🌱 Buscando desafios e projetos para evoluir minhas habilidades em **Front-end** e **Web Design**.
 - ⚡ Sempre absorvendo novos conhecimentos e ferramentas, mergulhando fundo nos mistérios do código.
 - 🌌 Apaixonada por tecnologia, o universo místico da Ravena e a estética sombria. **Diversidade e acessibilidade são indispensáveis.**
-
 ---
 
 ### 🦇 Meus Feitiços (Habilidades)
@@ -35,7 +34,11 @@
 ### 🐍 Minha Jornada
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/moondevgabs-maker/moondevgabs-maker/main/dist/snake.svg?raw=1" alt="Animação de cobra (snake) das contribuições do GitHub" />
+  <!-- O ?raw=1 força a exibição do SVG cru. 
+       O style adiciona um fundo escuro caso o SVG tenha áreas transparentes. -->
+  <img src="https://raw.githubusercontent.com/moondevgabs-maker/moondevgabs-maker/main/dist/snake.svg?raw=1"
+       alt="Animação de cobra (snake) das contribuições do GitHub"
+       style="background:#282A36; border-radius:6px; padding:6px;" />
 </p>
 
 ---
