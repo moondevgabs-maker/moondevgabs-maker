@@ -21,11 +21,10 @@ jobs:
           # O seu nome de utilizador do GitHub
           github_user_name: ${{ github.repository_owner }}
 
-          # ----- A VERDADEIRA CORREÇÃO ESTÁ AQUI (Inputs) -----
-          # Dizemos ao robô quais cores usar ANTES de ele pintar
-          color_snake: '#BD93F9,#FF79C6,#8BE9FD'
-          color_dots: '#44475A'
-          color_bg: '#282A36'
+          # ----- CÓDIGO DE CORES CORRIGIDO (APENAS UMA COR PARA A COBRINHA) -----
+          color_snake: '#BD93F9' # Roxo principal do tema Dracula para a cobrinha
+          color_dots: '#44475A'  # Cinza-escuro para os quadradinhos vazios
+          color_bg: '#282A36'   # Fundo escuro do tema Dracula
           
           # Onde o robô deve salvar a imagem (sem cores no nome)
           outputs: dist/snake.svg
@@ -33,5 +32,5 @@ jobs:
       - name: Commit & Push
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "chore: update contribution snake (fix colors)"
+          commit_message: "chore: update contribution snake (fix final colors)"
           file_pattern: dist/*.svg
