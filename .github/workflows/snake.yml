@@ -4,7 +4,6 @@ on:
     - cron: "0 */12 * * *"
   workflow_dispatch:
 
-# Permissão para o robô escrever no repositório
 permissions:
   contents: write
 
@@ -18,19 +17,17 @@ jobs:
       - name: Generate Snake SVG
         uses: Platane/snk@v3
         with:
-          # O seu nome de utilizador do GitHub
           github_user_name: ${{ github.repository_owner }}
 
-          # ----- CÓDIGO DE CORES CORRIGIDO (APENAS UMA COR PARA A COBRINHA) -----
-          color_snake: '#BD93F9' # Roxo principal do tema Dracula para a cobrinha
-          color_dots: '#44475A'  # Cinza-escuro para os quadradinhos vazios
-          color_bg: '#282A36'   # Fundo escuro do tema Dracula
-          
-          # Onde o robô deve salvar a imagem (sem cores no nome)
+          # Cores com %23 corretamente
+          color_snake: '%23BD93F9'   # Roxo estilo Ravena
+          color_dots:  '%2344475A'   # Cinza-escuro
+          color_bg:    '%23282A36'   # Fundo escuro (correta!)
+
           outputs: dist/snake.svg
 
       - name: Commit & Push
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "chore: update contribution snake (fix final colors)"
+          commit_message: "chore: update contribution snake (fix final final colors)"
           file_pattern: dist/*.svg
