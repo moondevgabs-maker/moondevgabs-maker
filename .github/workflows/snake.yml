@@ -2,7 +2,7 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 */12 * * *"  # Executa a cada 12 horas
+    - cron: "0 */12 * * *"
   workflow_dispatch:
 
 permissions:
@@ -18,74 +18,56 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Ensure dist folder exists
-        run: mkdir -p dist
-
       - name: Generate Snake SVG
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: dist/snake.svg
-          color_snake: '%23BD93F9'
-          color_dots:  '%2344475A'
-          color_bg:    '%23282A36'
 
-      - name: Apply DARK background inside SVG (insert rect)
+      - name: Ensure dist folder exists
+        run: mkdir -p dist
+
+      - name: Fix SVG background WITHOUT covering the snake
         run: |
-          python3 - << 'PY'
+          python3 - << 'EOF'
           import re
           from pathlib import Path
 
           p = Path("dist/snake.svg")
           if not p.exists():
-              print("SVG não encontrado. A action do snake pode ter falhado.")
-              exit(0)
+              print("SVG não encontrado.")
+              exit(1)
 
-          svg = p.read_text(encoding="utf-8")
+          svg = p.read_text()
 
-          # Remove qualquer <rect .../> pré-existente para evitar duplicação
-          svg = re.sub(r'<rect[^>]*\/>', '', svg)
+          # Remove qualquer rect existente
+          svg = re.sub(r'<rect[^>]*>', '', svg)
 
-          # Insere retângulo de fundo logo após a tag <svg ...>
+          # Insere retângulo logo DEPOIS da abertura da tag <svg>, garantindo que fique atrás
           svg = re.sub(
               r'(<svg[^>]*>)',
-              r'\1\n  <rect width="100%" height="100%" fill="#1A1B26"/>',
+              r'\1\n  <rect width="100%" height="100%" fill="#1A1B26" />',
               svg,
               count=1
           )
 
-          p.write_text(svg, encoding="utf-8")
-          print("Retângulo de fundo inserido (ou já existente foi normalizado).")
-          PY
+          # Move o rect para o topo da camada (primeiro elemento filho)
+          # Isso garante que ele fique atrás dos demais elementos
+          lines = svg.splitlines()
+          for i, line in enumerate(lines):
+              if "<rect" in line:
+                  rect = line
+                  del lines[i]
+                  lines.insert(1, rect)
+                  break
 
-      - name: Patch anti-GitHub (prevent forced white bg)
-        run: |
-          python3 - << 'PY'
-          from pathlib import Path
-          import re
+          svg = "\n".join(lines)
+          p.write_text(svg)
+          print("Fundo inserido atrás da animação!")
+          EOF
 
-          p = Path("dist/snake.svg")
-          if not p.exists():
-              print("SVG não encontrado. Abortando patch.")
-              exit(0)
-
-          svg = p.read_text(encoding="utf-8")
-
-          # Inserir CSS que evita que o GitHub force o esquema de cores
-          css_patch = '<style>svg{color-scheme:only light !important;}svg *{color-scheme:only light !important;}</style>'
-
-          # Se já existir, não duplicar
-          if css_patch in svg:
-              print("Patch anti-GitHub já presente.")
-          else:
-              svg = re.sub(r'(<svg[^>]*>)', r'\1' + css_patch, svg, count=1)
-              p.write_text(svg, encoding="utf-8")
-              print("Patch anti-GitHub aplicado.")
-
-          PY
-
-      - name: Commit and push changes
+      - name: Commit and push
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "chore: ensure dark background in snake.svg and apply anti-GitHub patch"
+          commit_message: "fix: apply proper layered background to snake.svg"
           file_pattern: "dist/snake.svg"
