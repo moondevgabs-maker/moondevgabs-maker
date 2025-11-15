@@ -4,10 +4,9 @@ on:
     - cron: "0 */12 * * *"
   workflow_dispatch:
 
-# ----- A CORREÇÃO ESTÁ AQUI -----
+# Permissão para o robô escrever no repositório
 permissions:
   contents: write
-# --------------------------------
 
 jobs:
   build:
@@ -22,13 +21,13 @@ jobs:
           # O seu nome de utilizador do GitHub
           github_user_name: ${{ github.repository_owner }}
           
-          # Força as cores exatas do tema Dracula
-outputs: |
-  dist/snake.svg?color_snake=BD93F9,FF79C6,8BE9FD&color_dots=44475A&color_bg=282A36
-  dist/snake-light.svg?palette=github-light
+          # CORES CORRIGIDAS (Fundo #282A36 - Dracula)
+          outputs: |
+            dist/snake.svg?color_snake=BD93F9,FF79C6,8BE9FD&color_dots=44475A&color_bg=282A36
+            dist/snake-light.svg?palette=github-light
 
       - name: Commit & Push
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "chore: update contribution snake"
+          commit_message: "chore: update contribution snake (fix colors)"
           file_pattern: dist/*.svg
