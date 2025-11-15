@@ -18,6 +18,7 @@
 - 🌱 Buscando desafios e projetos para evoluir minhas habilidades em **Front-end** e **Web Design**.
 - ⚡ Sempre absorvendo novos conhecimentos e ferramentas, mergulhando fundo nos mistérios do código.
 - 🌌 Apaixonada por tecnologia, o universo místico da Ravena e a estética sombria. **Diversidade e acessibilidade são indispensáveis.**
+
 ---
 
 ### 🦇 Meus Feitiços (Habilidades)
@@ -34,11 +35,11 @@
 ### 🐍 Minha Jornada
 
 <p align="center">
-  <!-- O ?raw=1 força a exibição do SVG cru. 
-       O style adiciona um fundo escuro caso o SVG tenha áreas transparentes. -->
-  <img src="https://raw.githubusercontent.com/moondevgabs-maker/moondevgabs-maker/main/dist/snake.svg?raw=1"
-       alt="Animação de cobra (snake) das contribuições do GitHub"
-       style="background:#282A36; border-radius:6px; padding:6px;" />
+  <p align="center" style="background:#282A36; padding:15px; border-radius:10px; display:inline-block;">
+    <img src="https://raw.githubusercontent.com/moondevgabs-maker/moondevgabs-maker/main/dist/snake.svg?raw=1"
+        alt="Animação de cobra (snake) das contribuições do GitHub"
+        width="100%" />
+  </p>
 </p>
 
 ---
@@ -47,11 +48,11 @@
 
 <p align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api?username=moondevgabs-maker&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&line_height=25&hide_border=true" alt="Estatísticas do GitHub de MoonDevGabs-maker" />
+    <img src="https://github-readme-stats.vercel.app/api?username=moondevgabs-maker&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&line_height=25&hide_border=true" alt="Estatísticas do GitHub de moondevgabs-maker" />
   </a>
   <br/>
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=moondevgabs-maker&layout=compact&theme=dracula&hide_border=true" alt="Linguagens Mais Usadas por MoonDevGabs-maker" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=moondevgabs-maker&layout=compact&theme=dracula&hide_border=true" alt="Linguagens Mais Usadas por moondevgabs-maker" />
   </a>
 </p>
 
