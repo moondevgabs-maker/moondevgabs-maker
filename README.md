@@ -58,5 +58,5 @@
 ---
 
 <p align="center">
-  <img src="https://media.tenor.com/cDiYPY2zg0sAAAAM/raven-titans.gif" width="500" alt="GIF da Ravena rindo" />
+  <img src="https://media.tenor.com/cDiYPY2zg0sAAAAM/raven-titans.gif" width="300" alt="GIF da Ravena rindo" />
 </p>
