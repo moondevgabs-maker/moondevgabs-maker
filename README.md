@@ -7,7 +7,7 @@
 <h1 align="center">🌙✨ Olá, eu sou a Gabs, a MoonDev! ✨🌙</h1>
 
 <p align="center">
-  <i>"Eu sou uma Sailor Scout que luta por acessibilidade e diversidade! E também por código limpo e responsivo!"</i>
+  <i>"Eu sou uma Sailor Scout que luta por amor e justiça! E também por código limpo e responsivo!"</i>
 </p>
 
 ---
@@ -24,39 +24,41 @@
 ### 🚀 Minhas Habilidades (Poderes Lunares do Código)
 
 <p align="center">
-  <img src="https://img.shields.io/badge/HTML5-F72585?style=plastic&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-00B4D8?style=plastic&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/JavaScript-7209B7?style=plastic&logo=javascript&logoColor=white" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/VS%20Code-4895EF?style=plastic&logo=visualstudiocode&logoColor=white" alt="VS Code" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" />
 </p>
+
+---
 
 ### 📊 Minhas Estrelas de Contribuição (Estatísticas Mágicas)
 
 <p align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api?username=moondevgabs-maker&show_icons=true&theme=synthwave&include_all_commits=true&count_private=true&line_height=25&hide_border=true" alt="Estatísticas do GitHub de MoonDevGabs-maker" />
+    <img src="https://github-readme-stats.vercel.app/api?username=moondevgabs-maker&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&line_height=25&hide_border=true" alt="Estatísticas do GitHub de MoonDevGabs-maker" />
   </a>
   <br/>
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=moondevgabs-maker&layout=compact&theme=synthwave&hide_border=true" alt="Linguagens Mais Usadas por MoonDevGabs-maker" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=moondevgabs-maker&layout=compact&theme=dracula&hide_border=true" alt="Linguagens Mais Usadas por MoonDevGabs-maker" />
   </a>
 </p>
 
 ---
 
-### 💬 Vamos Conectar! (Chamando as Scouts!)
+### 💬 Vamos Conectar! (Chamando como Escoteiras!)
 
 <p align="center">
   <a href="www.linkedin.com/in/gabriela-oliveira-324677125">
-    <img src="https://img.shields.io/badge/LinkedIn-F72585?style=plastic&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://www.instagram.com/gabiz.oferreira?igsh=dm5lZ3kyeTJmd2Zw">
-    <img src="https://img.shields.io/badge/Instagram-C13584?style=plastic&logo=instagram&logoColor=white" alt="Instagram" />
+    <img src="https://img.shields.io/badge/Instagram-C13584?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://media.tenor.com/BnIPE5qUprgAAAAM/luna-sailor-moon.gif" width="200" alt="GIF da Luna pixelada andando" />
+  <img src="https://media.tenor.com/BnIPE5qUprgAAAAM/luna-sailor-moon.gif" width="100" alt="GIF da Luna pixelada andando" />
 </p>
