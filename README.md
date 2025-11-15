@@ -1,76 +1,94 @@
 <p align="center">
   <a href="https://github.com/moondevgabs-maker">
-    <img src="https://media.tenor.com/mLkKVWMf_K8AAAAM/raven-rachel.gif" alt="GIF da Ravena pixelada" width="200">
+    <img src="https://media.tenor.com/mLkKVWMf_K8AAAAM/raven-rachel.gif" 
+         alt="GIF da Ravena pixelada" 
+         width="220"
+         style="border-radius:12px; box-shadow:0 0 25px #a679ff;">
   </a>
 </p>
 
-<h1 align="center">✨ Prazer, eu sou a Gabs, vulgo MoonDev! ✨</h1>
+<h1 align="center">✨🌑 Gabs • MoonDev 🌑✨</h1>
 
 <p align="center">
-  <i>"Azarath... Metrion... Zinthos."</i>
+  <i>𖤐 Azarath · Metrion · Zinthos 𖤐</i>
 </p>
 
----
-
-### 📖 Meu Mundo Interior (Sobre Mim)
-
-- 🔭 Focada em dominar a arte do **desenvolvimento web**, usando **HTML, CSS e JavaScript** para criar interfaces com poder e precisão.
-- 🌱 Buscando desafios e projetos para evoluir minhas habilidades em **Front-end** e **Web Design**.
-- ⚡ Sempre absorvendo novos conhecimentos e ferramentas, mergulhando fundo nos mistérios do código.
-- 🌌 Apaixonada por tecnologia, o universo místico da Ravena e a estética sombria. **Diversidade e acessibilidade são indispensáveis.**
+<p align="center">🕯️ • ✦ • ⛧ • ✦ • 🕯️</p>
 
 ---
 
-### 🦇 Meus Feitiços (Habilidades)
+### 🜁 Sobre Mim — *O Caminho Entre Sombras*
+
+- 🔭 Dominando a arte do **desenvolvimento web**, moldando interfaces com precisão e magia.
+- 🌱 Evoluindo em **HTML, CSS, JavaScript**, Front-end e Web Design.
+- ⚡ Compulsiva por conhecimento — sempre fuçando ferramentas, códigos e mistérios.
+- 🌌 Fascinada pela estética sombria, Ravena, tecnologia e mundos fantásticos.
+- ♿ Acessibilidade e diversidade não são opcionais: são parte da magia.
+
+<p align="center">🕯️ • ✦ • ⛧ • ✦ • 🕯️</p>
+
+---
+
+### 🜄 Habilidades — *Meus Feitiços Essenciais*
 
 <p align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
 </p>
 
+<p align="center">🕯️ • ✦ • ⛧ • ✦ • 🕯️</p>
+
 ---
 
-### 🐍 Minha Jornada
+### 🝓 Minha Jornada — *A Serpente do Destino*
 
 <p align="center">
-  <p align="center" style="background:#282A36; padding:15px; border-radius:10px; display:inline-block;">
-    <img src="https://raw.githubusercontent.com/moondevgabs-maker/moondevgabs-maker/main/dist/snake.svg?raw=1"
-        alt="Animação de cobra (snake) das contribuições do GitHub"
-        width="100%" />
-  </p>
+  <img 
+       src="https://raw.githubusercontent.com/moondevgabs-maker/moondevgabs-maker/main/dist/snake.svg?raw=1"
+       alt="Snake animation"
+       style="background:#1a1b26; border-radius:10px; padding:6px; box-shadow:0 0 20px #8f5cff;" />
 </p>
 
+<p align="center">🕯️ • ✦ • ⛧ • ✦ • 🕯️</p>
+
 ---
 
-### 👁️ Minha Visão (Estatísticas)
+### 👁️ Estatísticas — *Véus do Conhecimento*
 
-<p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api?username=moondevgabs-maker&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&line_height=25&hide_border=true" alt="Estatísticas do GitHub de moondevgabs-maker" />
-  </a>
-  <br/>
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=moondevgabs-maker&layout=compact&theme=dracula&hide_border=true" alt="Linguagens Mais Usadas por moondevgabs-maker" />
-  </a>
+<p align="center" style="background:#1a1b26; padding:15px; border-radius:10px; box-shadow:0 0 20px #7f5eff;">
+  <img src="https://github-readme-stats.vercel.app/api?username=moondevgabs-maker&show_icons=true&theme=dracula&hide_border=true" />
 </p>
 
+<p align="center" style="background:#1a1b26; padding:15px; border-radius:10px; box-shadow:0 0 20px #7f5eff;">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=moondevgabs-maker&layout=compact&theme=dracula&hide_border=true" />
+</p>
+
+<p align="center">🕯️ • ✦ • ⛧ • ✦ • 🕯️</p>
+
 ---
 
-### 📞 Contato (Se Atreva)
+### 📞 Contato — *Se Atreva a Invocar*
 
 <p align="center">
-  <a href="URL_DO_SEU_LINKEDIN_AQUI">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <a href="www.linkedin.com/in/gabriela-oliveira-324677125">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
   </a>
   <a href="https://www.instagram.com/gabiz.oferreira?igsh=dm5lZ3kyeTJmd2Zw">
-    <img src="https://img.shields.io/badge/Instagram-C13584?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+    <img src="https://img.shields.io/badge/Instagram-C13584?style=for-the-badge&logo=instagram&logoColor=white">
   </a>
 </p>
+
+<p align="center">🕯️ • ✦ • ⛧ • ✦ • 🕯️</p>
 
 ---
 
 <p align="center">
-  <img src="https://media.tenor.com/cDiYPY2zg0sAAAAM/raven-titans.gif" width="300" alt="GIF da Ravena rindo" />
+  <img src="https://media.tenor.com/cDiYPY2zg0sAAAAM/raven-titans.gif" 
+       width="300" 
+       alt="GIF da Ravena rindo"
+       style="border-radius:12px; box-shadow:0 0 25px #a679ff;">
 </p>
+
+<p align="center">⛧༺━━━━━━━━━━༻⛧</p>
