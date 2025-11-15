@@ -22,10 +22,10 @@ jobs:
           # O seu nome de utilizador do GitHub
           github_user_name: ${{ github.repository_owner }}
           
-          # A paleta de cores "dracula" (tons de roxo e rosa)
-          outputs: |
-            dist/snake.svg?palette=github-dark-dracula
-            dist/snake-light.svg?palette=github-light
+          # Força as cores exatas do tema Dracula
+outputs: |
+  dist/snake.svg?color_snake=BD93F9,FF79C6,8BE9FD&color_dots=44475A&color_bg=282A36
+  dist/snake-light.svg?palette=github-light
 
       - name: Commit & Push
         uses: stefanzweifel/git-auto-commit-action@v4
