@@ -1,7 +1,7 @@
 <p align="center">
   <a href="https://github.com/moondevgabs-maker">
-    <img src="https://media.tenor.com/mLkKVWMf_K8AAAAM/raven-rachel.gif"
-         alt="GIF da Ravena pixelada"
+    <img src="https://media.tenor.com/mLkKVWMf_K8AAAAM/raven-rachel.gif" 
+         alt="GIF da Ravena pixelada" 
          width="200">
   </a>
 </p>
@@ -16,8 +16,8 @@
 
 ### 📖 Meu Mundo Interior (Sobre Mim)
 
-- 🔭 Estudante dedicada de desenvolvimento web — HTML, CSS e JavaScript são meus grimórios preferidos.
-- 🌱 Sempre buscando desafios para evoluir minhas habilidades em Front-end.
+- 🔭 Estudante dedicada do desenvolvimento web — HTML, CSS e JavaScript são meus grimórios preferidos.
+- 🌱 Procurando desafios e projetos para evoluir minhas habilidades em Front-end.
 - ⚡ Absorvendo conhecimento igual energia sombria.
 - 🌌 Fascinada por tecnologia e estética da Ravena. Acessibilidade e diversidade são essenciais.
 
@@ -37,7 +37,7 @@
 ### 🐍 Minha Jornada
 
 <p align="center">
-  <img
+  <img 
     src="https://raw.githubusercontent.com/moondevgabs-maker/moondevgabs-maker/main/dist/snake.svg"
     alt="Animação de cobra (snake) das contribuições do GitHub"
     style="background:#1A1B26; border-radius:6px; padding:6px;"
@@ -49,13 +49,13 @@
 ### 👁️ Minha Visão (Estatísticas)
 
 <p align="center">
-  <img
+  <img 
     src="https://github-readme-stats.vercel.app/api?username=moondevgabs-maker&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&line_height=25&hide_border=true"
     alt="Estatísticas do GitHub" />
 
-  <br/><br/>
+  <br/>
 
-  <img
+  <img 
     src="https://github-readme-stats.vercel.app/api/top-langs/?username=moondevgabs-maker&layout=compact&theme=dracula&hide_border=true"
     alt="Linguagens mais usadas" />
 </p>
@@ -65,7 +65,7 @@
 ### 📞 Contato (Se Atreva)
 
 <p align="center">
-  <a href="www.linkedin.com/in/gabriela-oliveira-324677125">
+  <a href="https://www.linkedin.com/in/gabriela-oliveira-324677125">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
   <a href="https://www.instagram.com/gabiz.oferreira?igsh=dm5lZ3kyeTJmd2Zw">
