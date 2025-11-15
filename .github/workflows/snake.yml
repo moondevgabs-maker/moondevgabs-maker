@@ -21,9 +21,9 @@ jobs:
           # O seu nome de utilizador do GitHub
           github_user_name: ${{ github.repository_owner }}
           
-          # CORES CORRIGIDAS (Fundo #282A36 - Dracula)
+          # ----- CÓDIGO DE CORES CORRIGIDO (com %23) -----
           outputs: |
-            dist/snake.svg?color_snake=BD93F9,FF79C6,8BE9FD&color_dots=44475A&color_bg=282A36
+            dist/snake.svg?color_snake=%23BD93F9,%23FF79C6,%238BE9FD&color_dots=%2344475A&color_bg=%23282A36
             dist/snake-light.svg?palette=github-light
 
       - name: Commit & Push
