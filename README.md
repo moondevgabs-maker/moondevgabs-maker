@@ -1,10 +1,10 @@
 <p align="center">
   <a href="https://github.com/moondevgabs-maker">
-    <img src="https://media.tenor.com/mLkKVWMf_K8AAAAM/raven-rachel.gif" alt="GIF da Ravena pixelada" width="200">
+    <img src="https://media.tenor.com/mLkKVWMf_K8AAAAM/raven-rachel.gif" alt="GIF da Ravena pixelada" width="500">
   </a>
 </p>
 
-<h1 align="center">✨ Olá, eu sou a Gabs, a MoonDev! ✨</h1>
+<h1 align="center">✨ Oiê, eu sou a Gabs, vulgo MoonDev! ✨</h1>
 
 <p align="center">
   <i>"Azarath... Metrion... Zinthos."</i>
@@ -17,7 +17,8 @@
 -   🔭 Focada em dominar a arte do **desenvolvimento web**, usando **HTML, CSS e JavaScript** para criar interfaces com poder e precisão.
 -   🌱 Buscando desafios e projetos para evoluir minhas habilidades em **Front-end** e **Web Design**.
 -   ⚡ Sempre absorvendo novos conhecimentos e ferramentas, mergulhando fundo nos mistérios do código.
--   🌌 Apaixonada por tecnologia, o universo místico da Ravena e a estética sombria. **Diversidade e acessibilidade são indispensáveis.** ---
+-   🌌 Apaixonada por tecnologia, o universo místico da Ravena e a estética sombria. **Diversidade e acessibilidade são indispensáveis.**
+---
 
 ### 🦇 Meus Feitiços (Habilidades)
 
@@ -26,6 +27,14 @@
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
   <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" />
+</p>
+
+---
+
+### 🐍 Minha Jornada
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/moondevgabs-maker/moondevgabs-maker/main/dist/snake.svg?palette=github-dark-dracula" alt="Animação de cobra (snake) das contribuições do GitHub" />
 </p>
 
 ---
@@ -47,7 +56,7 @@
 ### 📞 Contato (Se Atreva)
 
 <p align="center">
-  <a href="www.linkedin.com/in/gabriela-oliveira-324677125">
+  <a href="URL_DO_SEU_LINKEDIN_AQUI">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://www.instagram.com/gabiz.oferreira?igsh=dm5lZ3kyeTJmd2Zw">
@@ -58,5 +67,5 @@
 ---
 
 <p align="center">
-  <img src="https://media.tenor.com/cDiYPY2zg0sAAAAM/raven-titans.gif" width="300" alt="GIF da Ravena rindo" />
+  <img src="https://media.tenor.com/cDiYPY2zg0sAAAAM/raven-titans.gif" width="100" alt="GIF da Ravena rindo" />
 </p>
