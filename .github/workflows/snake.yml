@@ -18,14 +18,14 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Ensure dist folder exists
+        run: mkdir -p dist
+
       - name: Generate Snake SVG
         uses: Platane/snk@v3
         with:
-          github_user_name: ${{ moondevgabs-maker }}
+          github_user_name: ${{ github.repository_owner }}
           outputs: dist/snake.svg
-
-      - name: Ensure dist folder exists
-        run: mkdir -p dist
 
       - name: FORCE background inside SVG
         run: |
@@ -35,15 +35,13 @@ jobs:
 
           p = Path("dist/snake.svg")
           if not p.exists():
-              print("SVG não encontrado.")
+              print("SVG não encontrado. A action do snake falhou.")
               exit(1)
 
           svg = p.read_text()
 
-          # Remove qualquer rect antigo
           svg = re.sub(r'<rect.*?/>', '', svg)
 
-          # Insere retângulo logo após a tag <svg ... >
           svg = re.sub(
               r'(<svg[^>]*>)',
               r'\1\n  <rect width="100%" height="100%" fill="#1A1B26"/>',
@@ -52,7 +50,7 @@ jobs:
           )
 
           p.write_text(svg)
-          print("Fundo ESCURO aplicado dentro do SVG com sucesso!")
+          print("Fundo escuro aplicado com sucesso!")
           EOF
 
       - name: Commit and push
@@ -60,4 +58,3 @@ jobs:
         with:
           commit_message: "fix: force dark background inside snake.svg"
           file_pattern: "dist/snake.svg"
-
