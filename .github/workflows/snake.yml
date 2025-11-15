@@ -2,35 +2,62 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 */12 * * *"   # Atualiza a cada 12 horas
-  workflow_dispatch:         # Permite rodar manualmente
+    - cron: "0 */12 * * *"   # a cada 12 horas
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout do repositório
+      - name: Checkout
         uses: actions/checkout@v3
-
-      - name: Instalar dependências Python
-        uses: actions/setup-python@v4
         with:
-          python-version: "3.10"
+          fetch-depth: 0
 
-      - name: Instalar executor da Snake
-        run: |
-          pip install --upgrade pip
-          pip install PyGithub
-
-      - name: Gerar animação Snake
+      - name: Generate Snake SVG
         uses: Platane/snk@v3
         with:
-          github_user_name: moondevgabs-maker
+          github_user_name: ${{ github.repository_owner }}
+          color_snake: '%23BD93F9'   # roxo
+          color_dots:  '%2344475A'   # cinza-escuro
+          color_bg:    '%23282A36'   # fundo escuro - importante: %23 é '#'
           outputs: dist/snake.svg
 
-      - name: Commit e Push da snake.svg gerada
+      - name: Ensure dist folder exists
+        run: |
+          mkdir -p dist
+          ls -la dist || true
+
+      - name: Add background rect to SVG if missing
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path('dist/snake.svg')
+          if not p.exists():
+              print("Arquivo dist/snake.svg não encontrado. Saindo com código 0 para não quebrar o workflow.")
+              exit(0)
+          s = p.read_text(encoding='utf-8')
+          # Se já houver um <rect fill="..."> ou já houver fill no svg, não adicionamos novamente
+          if '<rect' in s and 'fill="#282A36"' in s:
+              print("Retângulo de fundo já presente.")
+              exit(0)
+          import re
+          m = re.search(r'<svg[^>]*>', s)
+          if not m:
+              print("Tag <svg> não encontrada, verificando conteúdo...")
+              exit(0)
+          i = m.end()
+          rect = '\\n  <rect width=\"100%\" height=\"100%\" fill=\"#282A36\" />'
+          s2 = s[:i] + rect + s[i:]
+          p.write_text(s2, encoding='utf-8')
+          print("Retângulo de fundo inserido com sucesso em dist/snake.svg")
+          PY
+
+      - name: Commit & Push SVG
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "Atualizando animação Snake"
+          commit_message: "chore: update snake.svg (bg ensured)"
           file_pattern: "dist/snake.svg"
