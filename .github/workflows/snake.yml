@@ -14,59 +14,19 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
+      - uses: actions/checkout@v3
 
-      - name: Generate Snake SVG
-        uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: dist/snake.svg
+      - name: Generate Snake (transparent + blue ethereal)
+      uses: Platane/snk@v3
+      with:
+        github_user_name: ${{ github.repository_owner }}
+        outputs: dist/snake.svg
+        color_snake: "#5cc6ff"   # azul etéreo
+        color_dot: "#5cc6ff"     # bolinhas mágicas
+        speed: 1
 
-      - name: Ensure dist folder exists
-        run: mkdir -p dist
-
-      - name: Fix SVG background WITHOUT covering the snake
-        run: |
-          python3 - << 'EOF'
-          import re
-          from pathlib import Path
-
-          p = Path("dist/snake.svg")
-          if not p.exists():
-              print("SVG não encontrado.")
-              exit(1)
-
-          svg = p.read_text()
-
-          # Remove qualquer rect existente
-          svg = re.sub(r'<rect[^>]*>', '', svg)
-
-          # Insere retângulo logo DEPOIS da abertura da tag <svg>, garantindo que fique atrás
-          svg = re.sub(
-              r'(<svg[^>]*>)',
-              r'\1\n  <rect width="100%" height="100%" fill="#1A1B26" />',
-              svg,
-              count=1
-          )
-
-          # Move o rect para o topo da camada (primeiro elemento filho)
-          lines = svg.splitlines()
-          for i, line in enumerate(lines):
-              if "<rect" in line:
-                  rect = line
-                  del lines[i]
-                  lines.insert(1, rect)
-                  break
-
-          svg = "\n".join(lines)
-          p.write_text(svg)
-          print("Fundo inserido atrás da animação!")
-          EOF
-
-      - name: Commit and push
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: "fix: apply proper layered background to snake.svg"
-          file_pattern: "dist/snake.svg"
+      - name: Push changes
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: "update: ethereal blue snake"
+        file_pattern: dist/snake.svg
