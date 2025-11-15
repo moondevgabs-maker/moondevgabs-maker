@@ -1,0 +1,34 @@
+name: Generate Snake Animation
+on:
+  # Vai executar automaticamente a cada 12 horas
+  schedule:
+    - cron: "0 */12 * * *"
+  # Permite que o execute manualmente na aba "Actions"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. Faz o checkout do seu repositório
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      # 2. Gera a animação da cobrinha
+      - name: Generate Snake SVG
+        uses: Platane/snk@v3
+        with:
+          # O seu nome de utilizador do GitHub
+          github_user_name: ${{ github.repository_owner }}
+          
+          # A paleta de cores "dracula" (tons de roxo e rosa)
+          outputs: |
+            dist/snake.svg?palette=github-dark-dracula
+            dist/snake-light.svg?palette=github-light
+
+      # 3. Faz o commit e "push" do ficheiro SVG de volta para o seu repositório
+      - name: Commit & Push
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "chore: update contribution snake"
+          file_pattern: dist/*.svg
