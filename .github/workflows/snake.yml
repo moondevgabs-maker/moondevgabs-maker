@@ -11,22 +11,34 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
-      - uses: actions/checkout@v3
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
-      - name: Generate Snake (transparent + blue ethereal)
-      uses: Platane/snk@v3
-      with:
-        github_user_name: ${{ github.repository_owner }}
-        outputs: dist/snake.svg
-        color_snake: "#5cc6ff"   # azul etéreo
-        color_dot: "#5cc6ff"     # bolinhas mágicas
-        speed: 1
+      - name: Ensure dist folder exists
+        run: mkdir -p dist
 
-      - name: Push changes
-      uses: stefanzweifel/git-auto-commit-action@v4
-      with:
-        commit_message: "update: ethereal blue snake"
-        file_pattern: dist/snake.svg
+      - name: Generate Snake SVG (transparent + blue ethereal)
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: dist/snake.svg
+          # %23 é '#' URL-encoded — Platane aceita esse formato para hex
+          color_snake: '%235cc6ff'   # azul etéreo
+          color_dots:  '%235cc6ff'   # bolinhas no mesmo tom
+          # não definir color_bg -> deixa transparente
+
+      - name: Show resulting SVG preview (for logs)
+        run: |
+          echo "---- head of generated file ----"
+          head -n 20 dist/snake.svg || true
+          echo "---- tail of generated file ----"
+          tail -n 20 dist/snake.svg || true
+
+      - name: Commit & Push SVG (only if changed)
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "chore: update ethereal-blue snake"
+          file_pattern: "dist/snake.svg"
