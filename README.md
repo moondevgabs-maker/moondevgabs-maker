@@ -30,11 +30,11 @@
 
 ---
 
-### ⚡ Minha Atividade Recente
+### 🏆 Meus Troféus
 
 <p align="center">
-  <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=moondevgabs-maker&theme=dracula&hide_border=true&line=BD93F9&point=FF79C6" alt="Gráfico de Atividade do GitHub de MoonDevGabs-maker" />
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=moondevgabs-maker&theme=dracula&margin-w=15&margin-h=15" alt="Troféus do GitHub de MoonDevGabs-maker" />
   </a>
 </p>
 
