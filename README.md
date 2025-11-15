@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/moondevgabs-maker">
-    <img src="https://media.tenor.com/mLkKVWMf_K8AAAAM/raven-rachel.gif" alt="GIF da Ravena pixelada" width="500">
+    <img src="https://media.tenor.com/mLkKVWMf_K8AAAAM/raven-rachel.gif" alt="GIF da Ravena pixelada" width="200">
   </a>
 </p>
 
@@ -58,5 +58,5 @@
 ---
 
 <p align="center">
-  <img src="https://media.tenor.com/cDiYPY2zg0sAAAAM/raven-titans.gif" width="100" alt="GIF da Ravena rindo" />
+  <img src="https://media.tenor.com/cDiYPY2zg0sAAAAM/raven-titans.gif" width="500" alt="GIF da Ravena rindo" />
 </p>
