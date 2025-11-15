@@ -14,10 +14,11 @@
 
 ### 📖 Meu Mundo Interior (Sobre Mim)
 
--   🔭 Focada em dominar a arte do **desenvolvimento web**, usando **HTML, CSS e JavaScript** para criar interfaces com poder e precisão.
--   🌱 Buscando desafios e projetos para evoluir minhas habilidades em **Front-end** e **Web Design**.
--   ⚡ Sempre absorvendo novos conhecimentos e ferramentas, mergulhando fundo nos mistérios do código.
--   🌌 Apaixonada por tecnologia, o universo místico da Ravena e a estética sombria. **Diversidade e acessibilidade são indispensáveis.**
+- 🔭 Focada em dominar a arte do **desenvolvimento web**, usando **HTML, CSS e JavaScript** para criar interfaces com poder e precisão.
+- 🌱 Buscando desafios e projetos para evoluir minhas habilidades em **Front-end** e **Web Design**.
+- ⚡ Sempre absorvendo novos conhecimentos e ferramentas, mergulhando fundo nos mistérios do código.
+- 🌌 Apaixonada por tecnologia, o universo místico da Ravena e a estética sombria. **Diversidade e acessibilidade são indispensáveis.**
+
 ---
 
 ### 🦇 Meus Feitiços (Habilidades)
@@ -34,7 +35,7 @@
 ### 🐍 Minha Jornada
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/moondevgabs-maker/moondevgabs-maker/main/dist/snake.svg" alt="Animação de cobra (snake) das contribuições do GitHub" />
+  <img src="https://raw.githubusercontent.com/moondevgabs-maker/moondevgabs-maker/main/dist/snake.svg?raw=1" alt="Animação de cobra (snake) das contribuições do GitHub" />
 </p>
 
 ---
