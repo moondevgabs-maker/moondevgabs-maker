@@ -1,10 +1,10 @@
 <p align="center">
   <a href="https://github.com/moondevgabs-maker">
-    <img src="https://media.tenor.com/mLkKVWMf_K8AAAAM/raven-rachel.gif" alt="GIF da Ravena pixelada" width="500">
+    <img src="https://media.tenor.com/mLkKVWMf_K8AAAAM/raven-rachel.gif" alt="GIF da Ravena pixelada" width="200">
   </a>
 </p>
 
-<h1 align="center">✨ Oiê, eu sou a Gabs, vulgo MoonDev! ✨</h1>
+<h1 align="center">✨ Prazer, eu sou a Gabs, vulgo MoonDev! ✨</h1>
 
 <p align="center">
   <i>"Azarath... Metrion... Zinthos."</i>
@@ -34,7 +34,7 @@
 ### 🐍 Minha Jornada
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/moondevgabs-maker/moondevgabs-maker/main/dist/snake.svg?palette=github-dark-dracula" alt="Animação de cobra (snake) das contribuições do GitHub" />
+  <img src="https://raw.githubusercontent.com/moondevgabs-maker/moondevgabs-maker/main/dist/snake.svg" alt="Animação de cobra (snake) das contribuições do GitHub" />
 </p>
 
 ---
@@ -67,5 +67,5 @@
 ---
 
 <p align="center">
-  <img src="https://media.tenor.com/cDiYPY2zg0sAAAAM/raven-titans.gif" width="100" alt="GIF da Ravena rindo" />
+  <img src="https://media.tenor.com/cDiYPY2zg0sAAAAM/raven-titans.gif" width="300" alt="GIF da Ravena rindo" />
 </p>
