@@ -2,7 +2,7 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 */12 * * *"  # Executa a cada 12h
   workflow_dispatch:
 
 permissions:
@@ -14,20 +14,20 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+      uses: actions/checkout@v3
         with:
           fetch-depth: 0
-
-      - name: Ensure dist folder exists
-        run: mkdir -p dist
 
       - name: Generate Snake SVG
         uses: Platane/snk@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: moondevgabs-maker
           outputs: dist/snake.svg
 
-      - name: FORCE background inside SVG
+      - name: Ensure dist folder exists
+        run: mkdir -p dist
+
+      - name: Apply DARK background inside SVG
         run: |
           python3 - << 'EOF'
           import re
@@ -35,13 +35,15 @@ jobs:
 
           p = Path("dist/snake.svg")
           if not p.exists():
-              print("SVG não encontrado. A action do snake falhou.")
+              print("SVG não encontrado.")
               exit(1)
 
           svg = p.read_text()
 
+          # Remove retângulos antigos
           svg = re.sub(r'<rect.*?/>', '', svg)
 
+          # Insere o fundo escuro logo após <svg>
           svg = re.sub(
               r'(<svg[^>]*>)',
               r'\1\n  <rect width="100%" height="100%" fill="#1A1B26"/>',
@@ -50,11 +52,29 @@ jobs:
           )
 
           p.write_text(svg)
-          print("Fundo escuro aplicado com sucesso!")
+          print("Fundo escuro aplicado!")
           EOF
 
-      - name: Commit and push
+      - name: Patch anti-GitHub (stop forcing white bg)
+        run: |
+          python3 - << 'EOF'
+          from pathlib import Path
+          import re
+
+          p = Path("dist/snake.svg")
+          svg = p.read_text()
+
+          css_patch = '<style>svg{color-scheme:only light !important;}</style>'
+
+          # Insere logo após <svg> e após o retângulo
+          svg = re.sub(r'(<svg[^>]*>)', r'\1' + css_patch, svg, count=1)
+
+          p.write_text(svg)
+          print("Patch anti-GitHub aplicado.")
+          EOF
+
+      - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "fix: force dark background inside snake.svg"
+          commit_message: "fix: dark background + anti-GitHub patch applied to snake.svg"
           file_pattern: "dist/snake.svg"
