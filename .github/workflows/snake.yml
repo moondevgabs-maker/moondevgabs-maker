@@ -1,33 +1,36 @@
 name: Generate Snake Animation
+
 on:
   schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
-
-permissions:
-  contents: write
+    - cron: "0 */12 * * *"   # Atualiza a cada 12 horas
+  workflow_dispatch:         # Permite rodar manualmente
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
+      - name: Checkout do repositório
         uses: actions/checkout@v3
 
-      - name: Generate Snake SVG
+      - name: Instalar dependências Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Instalar executor da Snake
+        run: |
+          pip install --upgrade pip
+          pip install PyGithub
+
+      - name: Gerar animação Snake
         uses: Platane/snk@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
-
-          # Cores com %23 corretamente
-          color_snake: '%23BD93F9'   # Roxo estilo Ravena
-          color_dots:  '%2344475A'   # Cinza-escuro
-          color_bg:    '%23282A36'   # Fundo escuro (correta!)
-
+          github_user_name: moondevgabs-maker
           outputs: dist/snake.svg
 
-      - name: Commit & Push
+      - name: Commit e Push da snake.svg gerada
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "chore: update contribution snake (fix final final colors)"
-          file_pattern: dist/*.svg
+          commit_message: "Atualizando animação Snake"
+          file_pattern: "dist/snake.svg"
