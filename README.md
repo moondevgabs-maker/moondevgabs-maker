@@ -1,10 +1,10 @@
 <p align="center">
   <a href="https://github.com/moondevgabs-maker">
-    <img src="https://media1.giphy.com/media/Y1CjQNbQhLdAJTfVTA/giphy.gif" alt="GIF da Ravena (Raven) dos Jovens Titãs" width="500">
+    <img src="https://media.tenor.com/mLkKVWMf_K8AAAAM/raven-rachel.gif" alt="GIF da Ravena pixelada" width="500">
   </a>
 </p>
 
-<h1 align="center">🔮 Olá, eu sou a Gabs, a MoonDev! 🔮</h1>
+<h1 align="center">✨ Olá, eu sou a Gabs, a MoonDev! ✨</h1>
 
 <p align="center">
   <i>"Azarath... Metrion... Zinthos."</i>
@@ -17,9 +17,7 @@
 -   🔭 Focada em dominar a arte do **desenvolvimento web**, usando **HTML, CSS e JavaScript** para criar interfaces com poder e precisão.
 -   🌱 Buscando desafios e projetos para evoluir minhas habilidades em **Front-end** e **Web Design**.
 -   ⚡ Sempre absorvendo novos conhecimentos e ferramentas, mergulhando fundo nos mistérios do código.
--   🌌 Apaixonada por tecnologia, o universo místico da Ravena e a estética sombria. Diversidade e acessibilidade são indispensáveis.
-
----
+-   🌌 Apaixonada por tecnologia, o universo místico da Ravena e a estética sombria. **Diversidade e acessibilidade são indispensáveis.** ---
 
 ### 🦇 Meus Feitiços (Habilidades)
 
@@ -60,5 +58,5 @@
 ---
 
 <p align="center">
-  <img src="https://media.tenor.com/mLkKVWMf_K8AAAAM/raven-rachel.gif" width="200" alt="GIF da Ravena pixelada" />
+  <img src="https://media.tenor.com/cDiYPY2zg0sAAAAM/raven-titans.gif" width="100" alt="GIF da Ravena rindo" />
 </p>
