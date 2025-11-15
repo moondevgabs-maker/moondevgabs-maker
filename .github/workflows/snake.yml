@@ -52,7 +52,6 @@ jobs:
           )
 
           # Move o rect para o topo da camada (primeiro elemento filho)
-          # Isso garante que ele fique atrás dos demais elementos
           lines = svg.splitlines()
           for i, line in enumerate(lines):
               if "<rect" in line:
