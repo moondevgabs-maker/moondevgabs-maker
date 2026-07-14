@@ -235,19 +235,6 @@ Antes de mergulhar em Dados e Sistemas, construí uma base sólida na DIO — **
 
 <p align="center">🕯️ • ✦ • ⛧ • ✦ • 🕯️</p>
 
----
-
-### 👁️ Estatísticas — *Véus do Conhecimento*
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=moondevgabs-maker&show_icons=true&theme=dracula&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=moondevgabs-maker&layout=compact&theme=dracula&hide_border=true" />
-</p>
-
-<p align="center">🕯️ • ✦ • ⛧ • ✦ • 🕯️</p>
 
 ---
 
