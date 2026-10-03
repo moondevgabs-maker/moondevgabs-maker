@@ -6,7 +6,7 @@
   </a>
 </p>
 
-<h1 align="center">✨🌑 Gabs • MoonDev 🌑✨</h1>
+<h1 align="center">✨🌑 Gabbs • MoonDev 🌑✨</h1>
 
 <p align="center"><i>𖤐 Azarath · Metrion · Zinthos 𖤐</i></p>
 
@@ -343,7 +343,7 @@ Pode chegar. 💜
 ---
 
 <p align="center">
-  <img src="https://media1.tenor.com/m/cdiypy2zg0saaaad/raven-titans.gif"
+  <img src="https://media1.tenor.com/m/_EAqobyHE-8AAAAd/crystal-waking-up.gif"
        width="300"
        alt="GIF da Ravena rindo">
 </p>
