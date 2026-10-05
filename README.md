@@ -110,10 +110,6 @@ No projeto pratiquei **classes e objetos, encapsulamento, construtores, métodos
   </a>
 </p>
 
-#### 🌙 Próximas Conjurações
-
-Este espaço cresce conforme teoria vira prática, estudos viram projetos e alguns neurônios são sacrificados durante o processo. 🧠✨
-
 <p align="center">🕯️ • ✦ • ⛧ • ✦ • 🕯️</p>
 
 ---
